@@ -42,11 +42,11 @@ displayName="${mod_name}" #mandatory
 #credits="" #optional
 
 # The authors of the mod, displayed in the mod UI (optional)
-#authors=""
+authors="DrXmagod2000"
 
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-Example mod description.
+This is a mod im using to learn NeoForge 1.21.1 Minecraft modding.
 '''
 
 # The [[mixins]] block allows you to declare your mixin config to FML so that it gets loaded.
