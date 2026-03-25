@@ -66,6 +66,9 @@ public class MyNeoMods {
         if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS){
             event.accept(ModBlocks.SAPPHIRE_ORE);
         }
+        if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS){
+            event.accept((ModBlocks.DEEPSLATE_SAPPHIRE_ORE));
+        }
     }
 
 
@@ -75,13 +78,5 @@ public class MyNeoMods {
     public void onServerStarting(ServerStartingEvent event) {
 
     }
-
-    // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
-    @EventBusSubscriber(modid = MyNeoMods.MOD_ID, bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
-    static class ClientModEvents {
-        @SubscribeEvent
-        static void onClientSetup(FMLClientSetupEvent event) {
-
-        }
-    }
 }
+
