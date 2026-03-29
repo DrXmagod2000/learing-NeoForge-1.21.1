@@ -3,5 +3,7 @@
   "item.drxneomods.raw_sapphire" : "Raw Sapphire",
   "block.drxneomods.sapphire_block" : "Block of Sapphire",
   "block.drxneomods.sapphire_ore" : "Sapphire Ore",
-  "block.drxneomods.deepslate_sapphire_ore" : "Deepslate Sapphire Ore"
+  "block.drxneomods.deepslate_sapphire_ore" : "Deepslate Sapphire Ore",
+  "creativetab.drxneomods.sapphire_items" : "Sapphire Items",
+  "creativetab.drxneomods.sapphire_blocks" : "Sapphire Blocks"
 }
